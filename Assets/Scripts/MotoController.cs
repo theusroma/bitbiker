@@ -56,28 +56,30 @@ void Update()
         float velMaxAtual = foraDaPista ? velocidadeMaxima * multiplicadorVelocidadeOffTrack : velocidadeMaxima;
 
         // ==========================================
-        // ETAPA 1: ACELERAÇÃO AUTOMÁTICA E FRENAGEM
+        // ETAPA 1: O PEDAL DE FREIO DO JOGADOR
         // ==========================================
-        
         if (freando)
         {
-            // O jogador apertou o freio, a moto luta contra o motor
             velocidadeAtual -= forcaFreio * Time.fixedDeltaTime;
         }
         else
         {
-            // ACELERADOR TRAVADO! Se não está freando, ganha velocidade o tempo todo.
             velocidadeAtual += aceleracaoMotor * Time.fixedDeltaTime;
         }
 
-        // Trava a velocidade entre 0 e a máxima
-        velocidadeAtual = Mathf.Clamp(velocidadeAtual, 0, velMaxAtual);
+        // ==========================================
+        // ETAPA 2: O FREIO MOTOR (Atrito na Curva)
+        // ==========================================
+        // Quando você vira o guidão no máximo (inputLateral = 1 ou -1), a moto perde um pouco do embalo pela física
+        velocidadeAtual *= 1f - (Mathf.Abs(inputLateral) * 0.2f * Time.fixedDeltaTime);
+
+        // Trava a velocidade (O mínimo é 30 para a moto não parar do nada no meio da curva)
+        velocidadeAtual = Mathf.Clamp(velocidadeAtual, 30f, velMaxAtual);
 
 
         // ==========================================
-        // ETAPA 2: ESTERÇO BASEADO NA VELOCIDADE
+        // ETAPA 3: ESTERÇO (VIRAR O GUIDÃO)
         // ==========================================
-        
         if (velocidadeAtual > 1f)
         {
             float porcentagemVelocidade = velocidadeAtual / velocidadeMaxima;
@@ -93,9 +95,21 @@ void Update()
         }
 
         // ==========================================
-        // ETAPA 3: MOVE A MOTO
+        // ETAPA 4: INÉRCIA E ADERÊNCIA (O SIMULADOR)
         // ==========================================
-        rb.linearVelocity = transform.up * velocidadeAtual;
+        
+        // Descobre pra onde a moto estava "voando" por inércia
+        Vector2 direcaoInercia = rb.linearVelocity.normalized;
+        if (rb.linearVelocity.magnitude < 0.1f) direcaoInercia = transform.up;
+
+        // GRIP DO PNEU: Tente valores entre 3 (escorrega como gelo) e 8 (gruda bem).
+        float aderenciaPneu = 6f; 
+
+        // Mistura a inércia com o guidão
+        Vector2 direcaoReal = Vector3.Slerp(direcaoInercia, transform.up, aderenciaPneu * Time.fixedDeltaTime);
+
+        // Aplica o movimento final
+        rb.linearVelocity = direcaoReal * velocidadeAtual;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81b3193db41968947b990b62da82c2ff, type: 3}
+  m_Name: Rival_Rosa
+  m_EditorClassIdentifier: Assembly-CSharp::PilotoData
+  nomeDoPiloto: piloto rosa
+  nomeDaEquipe: rosa
+  corDaMoto: {r: 1, g: 0, b: 0.82157993, a: 1}
+  velocidadeMaxima: 90
+  aceleracaoMotor: 40
+  forcaFreio: 50
+  habilidadeNaCurva: 7

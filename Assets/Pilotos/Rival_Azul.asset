@@ -18,4 +18,4 @@ MonoBehaviour:
   velocidadeMaxima: 90
   aceleracaoMotor: 40
   forcaFreio: 50
-  habilidadeNaCurva: 7
+  habilidadeNaCurva: 8
