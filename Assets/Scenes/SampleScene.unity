@@ -285,6 +285,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16636741}
   m_CullTransparentMesh: 1
+--- !u!1 &120479348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 120479349}
+  - component: {fileID: 120479350}
+  m_Layer: 0
+  m_Name: Ponto (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &120479349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120479348}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 130.4, y: -214.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &120479350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120479348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &164987562
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,6 +418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 192806728}
+  - component: {fileID: 192806729}
   m_Layer: 0
   m_Name: Ponto (6)
   m_TagString: Untagged
@@ -395,6 +441,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 431099187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &192806729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192806727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &207309817
 GameObject:
   m_ObjectHideFlags: 0
@@ -1425,6 +1484,96 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &242393682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 242393683}
+  - component: {fileID: 242393684}
+  m_Layer: 0
+  m_Name: Ponto (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &242393683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242393682}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 386.6, y: 728.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &242393684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242393682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
+--- !u!1 &261641555
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 261641556}
+  - component: {fileID: 261641557}
+  m_Layer: 0
+  m_Name: Ponto (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &261641556
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261641555}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 253.60007, y: 617.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &261641557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261641555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1514,7 +1663,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.9714519, w: 0.23723687}
-  m_LocalPosition: {x: -960.0907, y: -274.5744, z: -1}
+  m_LocalPosition: {x: -979.3906, y: -229.07436, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1644,7 +1793,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BotController
   perfilPiloto: {fileID: 11400000, guid: c6307c2e87be0814cb48397d18ce674c, type: 2}
   rotaParent: {fileID: 431099187}
-  distanciaPraTrocarPonto: 15
   estercoBaixaVelocidade: 120
   estercoAltaVelocidade: 50
   multiplicadorVelocidadeOffTrack: 0.3
@@ -1789,13 +1937,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351063929}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.9714519, w: 0.23723687}
-  m_LocalPosition: {x: -1012.8, y: -162.1, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9785913, w: 0.20581304}
+  m_LocalPosition: {x: -1018.5, y: -144.6, z: 0}
   m_LocalScale: {x: 0.4669, y: 0.70035, z: 0.23345}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -152.553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -156.246}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1923,6 +2071,96 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
+--- !u!1 &417462540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 417462541}
+  - component: {fileID: 417462542}
+  m_Layer: 0
+  m_Name: Ponto (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &417462541
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417462540}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -42.5, y: 611.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &417462542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417462540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
+--- !u!1 &424968291
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 424968292}
+  - component: {fileID: 424968293}
+  m_Layer: 0
+  m_Name: Ponto (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &424968292
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424968291}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.1, y: 294.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &424968293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424968291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &431099186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1954,11 +2192,24 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1103078540}
+  - {fileID: 120479349}
   - {fileID: 1302920548}
   - {fileID: 1784247709}
+  - {fileID: 1801919523}
   - {fileID: 2020615481}
   - {fileID: 2138763238}
+  - {fileID: 1678023651}
   - {fileID: 192806728}
+  - {fileID: 1549213797}
+  - {fileID: 242393683}
+  - {fileID: 261641556}
+  - {fileID: 1573129097}
+  - {fileID: 424968292}
+  - {fileID: 1314670082}
+  - {fileID: 1041606485}
+  - {fileID: 1940172632}
+  - {fileID: 624839090}
+  - {fileID: 417462541}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &431099188
@@ -1975,6 +2226,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::RotaVisualizador
   corDaLinha: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   tamanhoDaBolinha: 1
+--- !u!1 &624839089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 624839090}
+  - component: {fileID: 624839091}
+  m_Layer: 0
+  m_Name: Ponto (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &624839090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624839089}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.6, y: 561.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &624839091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624839089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &638373516
 GameObject:
   m_ObjectHideFlags: 0
@@ -3933,7 +4229,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BotController
   perfilPiloto: {fileID: 11400000, guid: 793b1e53421b5e54c875f1e499a40afd, type: 2}
   rotaParent: {fileID: 431099187}
-  distanciaPraTrocarPonto: 15
   estercoBaixaVelocidade: 120
   estercoAltaVelocidade: 50
   multiplicadorVelocidadeOffTrack: 0.3
@@ -4078,13 +4373,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010437578}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.9714519, w: 0.23723687}
-  m_LocalPosition: {x: -987.8, y: -211.4, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.98326856, w: 0.18216205}
+  m_LocalPosition: {x: -980.8, y: -234.69998, z: 0}
   m_LocalScale: {x: 0.4669, y: 0.70035, z: 0.23345}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -152.553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -159.009}
 --- !u!1 &1015791218
 GameObject:
   m_ObjectHideFlags: 0
@@ -4188,6 +4483,51 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1041606484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1041606485}
+  - component: {fileID: 1041606486}
+  m_Layer: 0
+  m_Name: Ponto (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1041606485
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041606484}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -97.6, y: 459.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1041606486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041606484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &1103078539
 GameObject:
   m_ObjectHideFlags: 0
@@ -4197,6 +4537,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1103078540}
+  - component: {fileID: 1103078541}
   m_Layer: 0
   m_Name: Ponto
   m_TagString: Untagged
@@ -4219,6 +4560,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 431099187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1103078541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103078539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &1121908404
 GameObject:
   m_ObjectHideFlags: 0
@@ -4437,7 +4791,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BotController
   perfilPiloto: {fileID: 11400000, guid: aaf97cc2c60d7df44b8490ef62222f45, type: 2}
   rotaParent: {fileID: 431099187}
-  distanciaPraTrocarPonto: 15
   estercoBaixaVelocidade: 120
   estercoAltaVelocidade: 50
   multiplicadorVelocidadeOffTrack: 0.3
@@ -4582,13 +4935,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219090117}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.9714519, w: 0.23723687}
-  m_LocalPosition: {x: -1031.1001, y: -124.70001, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9785913, w: 0.20581304}
+  m_LocalPosition: {x: -984.4, y: -199.8, z: 0}
   m_LocalScale: {x: 0.4669, y: 0.70035, z: 0.23345}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -152.553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -156.246}
 --- !u!1 &1286444674
 GameObject:
   m_ObjectHideFlags: 0
@@ -4623,7 +4976,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BotController
   perfilPiloto: {fileID: 11400000, guid: 52fe177e86468694e896cbcd47319f98, type: 2}
   rotaParent: {fileID: 431099187}
-  distanciaPraTrocarPonto: 15
   estercoBaixaVelocidade: 120
   estercoAltaVelocidade: 50
   multiplicadorVelocidadeOffTrack: 0.3
@@ -4768,13 +5120,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286444674}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.9714519, w: 0.23723687}
-  m_LocalPosition: {x: -1000.69995, y: -185.20001, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9785913, w: 0.20581304}
+  m_LocalPosition: {x: -1013.4, y: -154.8, z: 0}
   m_LocalScale: {x: 0.4669, y: 0.70035, z: 0.23345}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -152.553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -156.246}
 --- !u!1 &1302920547
 GameObject:
   m_ObjectHideFlags: 0
@@ -4784,6 +5136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1302920548}
+  - component: {fileID: 1302920549}
   m_Layer: 0
   m_Name: Ponto (1)
   m_TagString: Untagged
@@ -4800,12 +5153,70 @@ Transform:
   m_GameObject: {fileID: 1302920547}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 153, y: -258.2, z: 0}
+  m_LocalPosition: {x: 211.1, y: -253.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 431099187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1302920549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302920547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
+--- !u!1 &1314670081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1314670082}
+  - component: {fileID: 1314670083}
+  m_Layer: 0
+  m_Name: Ponto (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1314670082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314670081}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -48.4, y: 363.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1314670083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314670081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &1327521378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4840,7 +5251,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BotController
   perfilPiloto: {fileID: 11400000, guid: 419c2184a5571a54192e54372e702852, type: 2}
   rotaParent: {fileID: 431099187}
-  distanciaPraTrocarPonto: 15
   estercoBaixaVelocidade: 120
   estercoAltaVelocidade: 50
   multiplicadorVelocidadeOffTrack: 0.3
@@ -4985,13 +5395,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327521378}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.9714519, w: 0.23723687}
-  m_LocalPosition: {x: -974.10004, y: -237.09996, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.98326856, w: 0.18216205}
+  m_LocalPosition: {x: -972.2, y: -250.59999, z: 0}
   m_LocalScale: {x: 0.4669, y: 0.70035, z: 0.23345}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -152.553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -159.009}
 --- !u!1 &1482948967
 GameObject:
   m_ObjectHideFlags: 0
@@ -5158,6 +5568,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482948967}
   m_CullTransparentMesh: 1
+--- !u!1 &1549213796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1549213797}
+  - component: {fileID: 1549213798}
+  m_Layer: 0
+  m_Name: Ponto (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1549213797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549213796}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 464.3, y: 712.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1549213798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549213796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &1558922679
 GameObject:
   m_ObjectHideFlags: 0
@@ -5192,7 +5647,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BotController
   perfilPiloto: {fileID: 11400000, guid: 3f1caf02b4a45c6458480c33484a050d, type: 2}
   rotaParent: {fileID: 431099187}
-  distanciaPraTrocarPonto: 15
   estercoBaixaVelocidade: 120
   estercoAltaVelocidade: 50
   multiplicadorVelocidadeOffTrack: 0.3
@@ -5337,13 +5791,58 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558922679}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.9714519, w: 0.23723687}
-  m_LocalPosition: {x: -1042.8, y: -100.9, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9785913, w: 0.20581304}
+  m_LocalPosition: {x: -991.12006, y: -200.99, z: 0}
   m_LocalScale: {x: 0.4669, y: 0.70035, z: 0.23345}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -152.553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -156.246}
+--- !u!1 &1573129096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1573129097}
+  - component: {fileID: 1573129098}
+  m_Layer: 0
+  m_Name: Ponto (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1573129097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573129096}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 132, y: 356.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1573129098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573129096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &1623739699
 GameObject:
   m_ObjectHideFlags: 0
@@ -5482,7 +5981,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BotController
   perfilPiloto: {fileID: 11400000, guid: f934e9cb8c79fff4e966ef81fbd5f537, type: 2}
   rotaParent: {fileID: 431099187}
-  distanciaPraTrocarPonto: 15
   estercoBaixaVelocidade: 120
   estercoAltaVelocidade: 50
   multiplicadorVelocidadeOffTrack: 0.3
@@ -5627,13 +6125,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630633377}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.9714519, w: 0.23723687}
-  m_LocalPosition: {x: -1006.8, y: -173.6, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9785913, w: 0.20581304}
+  m_LocalPosition: {x: -1008.69995, y: -168.3, z: 0}
   m_LocalScale: {x: 0.4669, y: 0.70035, z: 0.23345}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -152.553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -156.246}
 --- !u!1 &1634146750
 GameObject:
   m_ObjectHideFlags: 0
@@ -5813,7 +6311,7 @@ Transform:
   m_GameObject: {fileID: 1670753256}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.9714519, w: 0.23723687}
-  m_LocalPosition: {x: -964.7, y: -265.7, z: 0}
+  m_LocalPosition: {x: -984, y: -220.2, z: 0}
   m_LocalScale: {x: 0.4669, y: 0.70035, z: 0.23345}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5831,9 +6329,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d420ed0b65bf02a47b1182b019b9e2fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MotoController
-  velocidadeMaxima: 90
-  aceleracaoMotor: 40
-  forcaFreio: 50
+  velocidadeMaxima: 320
+  aceleracaoMotor: 80
+  forcaFreio: 120
   estercoBaixaVelocidade: 120
   estercoAltaVelocidade: 40
   multiplicadorVelocidadeOffTrack: 0.3
@@ -5911,6 +6409,51 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &1678023650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1678023651}
+  - component: {fileID: 1678023652}
+  m_Layer: 0
+  m_Name: Ponto (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1678023651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678023650}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 536.69995, y: 468.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1678023652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678023650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &1684798557
 GameObject:
   m_ObjectHideFlags: 0
@@ -6011,6 +6554,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1784247709}
+  - component: {fileID: 1784247710}
   m_Layer: 0
   m_Name: Ponto (3)
   m_TagString: Untagged
@@ -6027,12 +6571,115 @@ Transform:
   m_GameObject: {fileID: 1784247708}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 275.1, y: -189.2, z: 0}
+  m_LocalPosition: {x: 274.5, y: -193.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 431099187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1784247710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784247708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
+--- !u!1 &1801919522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1801919523}
+  - component: {fileID: 1801919524}
+  m_Layer: 0
+  m_Name: Ponto (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1801919523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801919522}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 359, y: -204.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1801919524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801919522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
+--- !u!1 &1940172631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1940172632}
+  - component: {fileID: 1940172633}
+  m_Layer: 0
+  m_Name: Ponto (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1940172632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940172631}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 45, y: 456.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 431099187}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1940172633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940172631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &2018821235
 GameObject:
   m_ObjectHideFlags: 0
@@ -6067,7 +6714,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BotController
   perfilPiloto: {fileID: 11400000, guid: 06e3f2a741fe164489173e4ca2f83ad5, type: 2}
   rotaParent: {fileID: 431099187}
-  distanciaPraTrocarPonto: 15
   estercoBaixaVelocidade: 120
   estercoAltaVelocidade: 50
   multiplicadorVelocidadeOffTrack: 0.3
@@ -6212,13 +6858,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018821235}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.9714519, w: 0.23723687}
-  m_LocalPosition: {x: -1037, y: -112.600006, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.9785913, w: 0.20581304}
+  m_LocalPosition: {x: -996.12006, y: -205.46, z: 0}
   m_LocalScale: {x: 0.4669, y: 0.70035, z: 0.23345}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -152.553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -156.246}
 --- !u!1 &2020615480
 GameObject:
   m_ObjectHideFlags: 0
@@ -6228,6 +6874,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2020615481}
+  - component: {fileID: 2020615482}
   m_Layer: 0
   m_Name: Ponto (4)
   m_TagString: Untagged
@@ -6244,12 +6891,25 @@ Transform:
   m_GameObject: {fileID: 2020615480}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 386.3, y: -205.8, z: 0}
+  m_LocalPosition: {x: 477.3, y: -172.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 431099187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2020615482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020615480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &2133641730
 GameObject:
   m_ObjectHideFlags: 0
@@ -6284,7 +6944,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BotController
   perfilPiloto: {fileID: 11400000, guid: 5752904093f1f894888ae0fe9c514222, type: 2}
   rotaParent: {fileID: 431099187}
-  distanciaPraTrocarPonto: 15
   estercoBaixaVelocidade: 120
   estercoAltaVelocidade: 50
   multiplicadorVelocidadeOffTrack: 0.3
@@ -6429,13 +7088,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133641730}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.9714519, w: 0.23723687}
-  m_LocalPosition: {x: -980.2, y: -225.7, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.98326856, w: 0.18216205}
+  m_LocalPosition: {x: -961.5, y: -269.3, z: 0}
   m_LocalScale: {x: 0.4669, y: 0.70035, z: 0.23345}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -152.553}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -159.009}
 --- !u!1 &2138763237
 GameObject:
   m_ObjectHideFlags: 0
@@ -6445,6 +7104,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2138763238}
+  - component: {fileID: 2138763239}
   m_Layer: 0
   m_Name: Ponto (5)
   m_TagString: Untagged
@@ -6461,12 +7121,25 @@ Transform:
   m_GameObject: {fileID: 2138763237}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 540.3, y: -85.4, z: 0}
+  m_LocalPosition: {x: 544.9, y: -54.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 431099187}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2138763239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138763237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2be81a4389391144a111bec81e805b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PontoDaPista
+  raioDeCaptura: 15
 --- !u!1 &2139232412
 GameObject:
   m_ObjectHideFlags: 0
@@ -6569,7 +7242,7 @@ Transform:
   m_GameObject: {fileID: 2139232412}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.9714519, w: 0.23723687}
-  m_LocalPosition: {x: -960.0907, y: -274.5744, z: -1}
+  m_LocalPosition: {x: -979.3906, y: -229.07436, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

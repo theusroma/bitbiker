@@ -15,7 +15,7 @@ MonoBehaviour:
   nomeDoPiloto: piloto preto
   nomeDaEquipe: preto
   corDaMoto: {r: 0.130874, g: 0.1315682, b: 0.16037738, a: 1}
-  velocidadeMaxima: 90
-  aceleracaoMotor: 40
-  forcaFreio: 50
+  velocidadeMaxima: 320
+  aceleracaoMotor: 80
+  forcaFreio: 120
   habilidadeNaCurva: 8

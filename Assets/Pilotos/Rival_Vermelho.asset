@@ -15,7 +15,7 @@ MonoBehaviour:
   nomeDoPiloto: piloto vermelho
   nomeDaEquipe: vermelho
   corDaMoto: {r: 0.9339623, g: 0, b: 0, a: 1}
-  velocidadeMaxima: 90
-  aceleracaoMotor: 40
-  forcaFreio: 50
+  velocidadeMaxima: 320
+  aceleracaoMotor: 80
+  forcaFreio: 120
   habilidadeNaCurva: 7

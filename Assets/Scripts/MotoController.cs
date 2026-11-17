@@ -108,8 +108,10 @@ void Update()
         // Mistura a inércia com o guidão
         Vector2 direcaoReal = Vector3.Slerp(direcaoInercia, transform.up, aderenciaPneu * Time.fixedDeltaTime);
 
-        // Aplica o movimento final
-        rb.linearVelocity = direcaoReal * velocidadeAtual;
+        // Converte a velocidade de Km/h para Metros por Segundo pro Unity entender a física realista
+        float velocidadeEmMetrosPorSegundo = velocidadeAtual / 3.6f;
+        
+        rb.linearVelocity = direcaoReal * velocidadeEmMetrosPorSegundo;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
